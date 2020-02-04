@@ -1,0 +1,17 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: spring-cloud-netflix-service-admin
+
+management:
+  endpoint:
+    health:
+      # 是否展示健康检查详情
+      show-details: always
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
