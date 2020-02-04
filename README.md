@@ -16,4 +16,4 @@
 | 配置管理 | Spring-Cloud-Config |
 #### 2.架构及其原理
 一个简单的微服务系统如下图：  
-![](./screenshots/springcloudnetflix.png)
+![](https://github.com/xianyuli/learning-spring-cloud-netflix/blob/master/screenshots/springcloudnetflix.png)
