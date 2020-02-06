@@ -1,0 +1,27 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: spring-cloud-netflix-zuul
+  #配置项目本地配置优先于configserver配置
+  cloud:
+    config:
+      allow-override: true
+      override-none: true
+zuul:
+  routes:
+    admin:
+      path: /admin/**
+      serviceId: spring-cloud-netflix-service-admin
+    web-feign:
+      path: /feign/**
+      serviceId: spring-cloud-netflix-web-feign
+    web-ribbon:
+      path: /ribbon/**
+      serviceId: spring-cloud-netflix-web-ribbon
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/

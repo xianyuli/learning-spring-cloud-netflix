@@ -1,0 +1,18 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: spring-cloud-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://gitee.com/xianyuli/spring-cloud-config.git
+          search-paths: repo
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/

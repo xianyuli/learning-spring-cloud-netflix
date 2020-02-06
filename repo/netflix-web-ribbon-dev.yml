@@ -4,11 +4,14 @@ server:
 spring:
   application:
     name: spring-cloud-netflix-web-ribbon
-
+  #閰嶇疆椤圭洰鏈湴閰嶇疆浼樺厛浜巆onfigserver閰嶇疆
+  cloud:
+    config:
+      allow-override: true
+      override-none: true
 management:
   endpoint:
     health:
-      # 是否展示健康检查详情
       show-details: always
 
 eureka:

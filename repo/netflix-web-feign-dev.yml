@@ -4,14 +4,17 @@ server:
 spring:
   application:
     name: spring-cloud-netflix-web-feign
-
+  #é…ç½®é¡¹ç›®æœ¬åœ°é…ç½®ä¼˜å…ˆäºconfigserveré…ç½®
+  cloud:
+    config:
+      allow-override: true
+      override-none: true
 management:
   endpoint:
     health:
-      # ÊÇ·ñÕ¹Ê¾½¡¿µ¼ì²éÏêÇé
       show-details: always
       
-#¿ªÆôÈÛ¶ÏÆ÷
+
 feign:
   hystrix:
     enabled: true

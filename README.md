@@ -6,14 +6,14 @@
 让我们简单的来学一下`SpringCloud Netflix`：  
 在微服务架构中，需要几个基础的服务治理组件，包括注册与发现，服务消费，负载均衡，熔断器，智能路由，配置管理等；其对应`Spring-Cloud-Netflix`中的组件与技术:  
 
-| 组件 | Spring-Cloud-Netflix    |
+| 组件 | Spring-Cloud-Netflix |
 | :------ | :------ |
-| 注册与发现 | Spring-Cloud-Eureka |
-| 服务消费 | Spring-Cloud-Feign |
-| 负载均衡 | Spring-Cloud-Ribbon |
-| 熔断器 | Spring-Cloud-Hystrix |
-| 智能路由 | Spring-Cloud-Zuul |
-| 配置管理 | Spring-Cloud-Config |
+| 注册与发现 | Spring-Cloud-Eureka  |
+| 服务消费   | Spring-Cloud-Feign   |
+| 负载均衡   | Spring-Cloud-Ribbon  |
+| 熔断器     | Spring-Cloud-Hystrix |
+| 智能路由   | Spring-Cloud-Zuul    |
+| 配置管理   | Spring-Cloud-Config  |
 #### 2.架构及其原理
 一个简单的微服务系统如下图：  
 ![](https://github.com/xianyuli/learning-spring-cloud-netflix/blob/master/screenshots/springcloudnetflix.png)

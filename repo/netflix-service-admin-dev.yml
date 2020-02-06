@@ -1,10 +1,13 @@
 server:
-  port: 8002
+  port: 8001
 
 spring:
   application:
     name: spring-cloud-netflix-service-admin
-
+  cloud:
+    config:
+      allow-override: true
+      override-none: true
 management:
   endpoint:
     health:
