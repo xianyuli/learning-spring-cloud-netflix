@@ -14,6 +14,8 @@
 | 服务消费   | Spring-Cloud-Feign   |
 | 负载均衡   | Spring-Cloud-Ribbon  |
 | 熔断器     | Spring-Cloud-Hystrix |
+| 链路追踪   | Zipkin |
+| 服务监控   | Spring-Boot-Admin |
 
 
 #### 2.架构
